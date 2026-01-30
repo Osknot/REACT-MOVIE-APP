@@ -6,8 +6,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/REACT-MOVIE-APP/">
+    <HashRouter>
       <App />
-    </BrowserRouter> 
+    </HashRouter> 
   </StrictMode>,
 )
